@@ -1,0 +1,113 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(135, 207, 235, 0.541);
+}
+img{
+    width:25px;
+}
+.row-1{
+    width:70%;
+    position: relative;
+    height: 40px;
+    background-color: white;
+}
+.x-icon{
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+.row-1 p,
+.row-2 p,
+.row-3 p,
+.row-4 p{
+    position:absolute;
+    top:7px;
+    left:35px;
+    z-index:1;
+}
+.check-icon{
+    position: absolute;
+    top:5px;
+    left:5px;
+}
+.row-2 {
+    width: 70%;
+    position: relative;
+    height: 40px;
+    background-color: rgba(7, 7, 90, 0.76);
+}
+
+.row-3 {
+    width: 70%;
+    position: relative;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+.row-4 {
+    width: 70%;
+    position: relative;
+    height: 40px;
+    background-color: rgba(7, 7, 90, 0.76);
+    border-radius: 15px;
+}
+.row-5 {
+    width: 70%;
+    position: relative;
+    height: 40px;
+    background-color: white;
+}
+.row-6 {
+    width: 70%;
+    position: relative;
+    height: 40px;
+    background-color: rgba(7, 7, 90, 0.76);
+}
+.row{
+    display:flex;
+    flex-direction: column;
+    gap:0.7rem;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.container{
+    padding-left:250px;
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+}
+.row-5 p,
+.row-6 p{
+    position:absolute;
+    top:7px;
+    left:250px;
+}
+.check-icon1{
+    position: absolute;
+    top: 5px;
+    left: 220px;
+}
+.check-icon2 {
+    position: absolute;
+    top: 5px;
+    left: 220px;
+}
+.row-3:hover,
+.row-4:hover,
+.row-1:hover,
+.row-2:hover,
+.row-5:hover,
+.row-6:hover{
+    transform: translateY(-10px);
+}
